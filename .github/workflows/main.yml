@@ -41,4 +41,4 @@ jobs:
       - name : Installing surge 
         run : npm install -g surge 
       - name : Deploying on surge 
-        run : surge ./ bootcamp2020-class02.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run : surge ./ react-props-assignment-class-03-bootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
